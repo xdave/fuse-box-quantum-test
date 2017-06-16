@@ -8,7 +8,7 @@ NOTE: This project currently does not work in production mode. :)
 
 From `package.json`:
 ```json
-"scripts": {
+  "scripts": {
     "build": "ts-node fuse",
     "start": "npm -s run build -- -d",
     "prod": "cross-env NODE_ENV=production npm -s run build",
